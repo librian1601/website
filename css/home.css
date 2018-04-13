@@ -1,0 +1,130 @@
+html{
+      font-family: helventica, serif;
+}
+html, body {
+      background-color: white;
+      margin: 0;
+      padding: 0;
+}
+h1 {font-size: 56px;}
+
+.blinktext{
+   animation:blinker 1s linear infinite;
+}
+@keyframes blinker {
+   50% { opacity:0.0; }
+}
+
+.nav {
+      background-color: white;
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.27);
+      -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.27);
+      box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.27);
+}
+.nav a {
+  text-decoration: none;
+  color: #DD4C4C;
+}
+.nav a:hover{
+  color: #F48B8B;
+}
+.nav .nav_btn {
+      float: left;
+      font-size: 30px;
+      margin-left: 1em;
+}
+.nav img {
+  width: 40px;
+  float: right;
+  margin-right: 0.5em;
+  margin-top: 12px;
+}
+.nav p {
+      padding: 0.75em 2.5em;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 100;
+      float: right;
+      border: solid #DD4C4C 1px;
+      border-radius: 100px;
+      margin-right: 2em;
+      margin-top: 12px;
+}
+.nav p:hover{
+  color: white;
+  border: solid #F48B8B 1px;
+  background-color: #F48B8B;
+}
+.banner{
+      color: white;
+      padding: 0;
+      margin: 0;
+      background-image: url(../img/background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      min-height: 839px;
+      text-align: center;
+}
+.banner_btn p {
+  color: #DD4C4C;
+  font-size: 18px;
+}
+.banner_btn p:hover {
+  color: white;
+  border: solid #F48B8B 1px;
+  background-color: #F48B8B;
+}
+.banner_btn {
+  margin-top: 5px;
+  color: #DD4C4C;
+  text-decoration: none;
+}
+.banner_btn:hover {
+  color: white;
+}
+.banner h1 {
+      padding: 1.5em 0 0 0;
+      margin: 0;
+      clear: both;
+}
+.banner a {
+      background-color: white;
+}
+.tagline {
+      font-weight: 100;
+      margin: 0.5em 0 1em 0;
+      padding: 0;
+}
+.banner a p {
+      background-color: white;
+      width: 180px;
+      padding: 0.75em 0;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100px;
+      -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.27);
+      -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.27);
+      box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.27);
+}
+.row {
+  width: 100%;
+}
+.row_cell {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 1em 1em;
+  border: solid 1px white;
+  border-radius: 25px;
+}
+.row_cell img {
+  width: 120px;
+  height: auto;
+  margin: 1.5em 0 0 0;
+}
